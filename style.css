@@ -1,0 +1,258 @@
+body {
+  background-color: #f0f0f0;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h2,
+h3 {
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 1px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.headerImage {
+  max-height: 450px;
+}
+
+header {
+  background-color: #f4f4f4;
+}
+
+.publicLocation {
+  display: flex; */
+}
+
+.publicLocation2 {
+  display: flex;
+  justify-content: center;
+}
+
+.publicLocation2 i {
+  margin-top:23px;
+}
+
+.publicLocation p {
+  color: #4a4a4a;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.publicLocation i {
+  margin-top: 5px;
+}
+
+.fa-location-dot {
+  height: 20px;
+  width: 20px;
+}
+
+.public {
+  max-width: 96%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.public p {
+  line-height: 25px;
+}
+
+.publicText {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.publicText h2 {
+  margin-top: 0px;
+}
+
+.public img {
+  height: 450px;
+  /* margin-left: 20px; */
+}
+
+.publicTagline {
+  font-weight: 600;
+  margin: 25px 0;
+}
+
+.publicParagraph {
+  padding-bottom: 40px;
+}
+
+.ctaButton {
+  background-color: #836546;
+  padding: 6px 12px;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Roboto";
+  letter-spacing: 2px;
+}
+
+/* section 2 */
+
+main {
+  background-color: #ffffff;
+}
+
+main h2 {
+  text-align: center;
+  padding: 50px 0;
+  margin: 0px;
+}
+
+.fa-dollar-sign {
+  background-color: black;
+  height: 20px;
+  width: 22px;
+  color: white;
+  border-radius: 500px;
+  text-align: center;
+  margin-top: 4px;
+  padding-top: 2px;
+  margin-right: 4px;
+}
+
+.commissionProp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.commissionProp p {
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+main h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.propBorder {
+  border-bottom: 2px solid #836546;
+  width: 100px;
+  margin: 0 auto;
+}
+
+aside {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  flex-wrap: wrap;
+  row-gap: 0px;
+  background: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+aside h3 {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.boxes {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  width: 390px;
+  margin-top: 10px;
+  height: 800px;
+  background-color: white;
+  position: relative;
+  border: 1px solid #f1f1f1;
+}
+
+.boxes img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.boxes p {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 20px;
+  line-height: 25px;
+}
+
+.learnMore {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 30%;
+  bottom: 3%;
+}
+
+.learnMore img {
+  width: 40px;
+  margin: 0;
+}
+
+.learnMore a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #836546;
+}
+
+/* Section 3 */
+article {
+  text-align: center;
+  line-height: 23px;
+  background-color: #f2f2f2;
+}
+
+.secondButton {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.strParas {
+  font-weight: 700;
+  margin-bottom: 20px 0;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+footer p {
+  margin: 0px 0;
+}
+
+footer p:first-child {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 25px 150px;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 18px;
+}
+
+footer p:nth-child(2) {
+  background-color: #1e4c9b;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+footer p:nth-child(3) {
+  background-color: #5b7c90;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
